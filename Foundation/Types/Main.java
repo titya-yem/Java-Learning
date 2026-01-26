@@ -10,8 +10,6 @@ public class Main {
         // Mortgage: $472.81
 
         Scanner scanner = new Scanner(System.in);
-        double time;
-        final double total;
 
         System.out.print("Pricipal: ");
         final int principal = scanner.nextInt();
@@ -22,12 +20,16 @@ public class Main {
         System.out.print("Peroid (Years): ");
         final byte period = scanner.nextByte();
 
+        scanner.close();
+
         double monthlyRate = rate / 100 / 12;
-        int numberOfPayments = period * 12;
+        int monthlyPayment = period * 12;
 
-        double power = Math.pow(1 + monthlyRate, numberOfPayments);
+        double compoundInterest = Math.pow(1 + monthlyRate, monthlyPayment);
 
-        double mortgage = principal * (monthlyRate * power) / (power - 1);
-        System.out.println("Mortgage: " + NumberFormat.getCurrencyInstance().format(mortgage));
+        double mortgage = principal * (monthlyRate * compoundInterest) / (compoundInterest - 1);
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+
+        System.out.println("Mortgage: " + currency.format(mortgage));
     }
 }
