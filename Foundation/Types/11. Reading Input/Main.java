@@ -13,5 +13,7 @@ public class Main {
 
         scanner.nextFloat();
         scanner.nextInt();
+
+        scanner.close();
     }
 }

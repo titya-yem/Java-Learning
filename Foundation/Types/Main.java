@@ -11,19 +11,19 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Pricipal: ");
+        System.out.print("Principal: ");
         final int principal = scanner.nextInt();
 
         System.out.print("Annual Interest Rate: ");
-        float rate = scanner.nextFloat();
+        final float rate = scanner.nextFloat();
 
         System.out.print("Peroid (Years): ");
-        final byte period = scanner.nextByte();
+        final int period = scanner.nextInt();
 
         scanner.close();
 
-        double monthlyRate = rate / 100 / 12;
-        int monthlyPayment = period * 12;
+        double monthlyRate = rate / 12 / 100; // rate / 12 months / 100 to make it into percentage
+        int monthlyPayment = period * 12; // total year * 12 months
 
         double compoundInterest = Math.pow(1 + monthlyRate, monthlyPayment);
 
