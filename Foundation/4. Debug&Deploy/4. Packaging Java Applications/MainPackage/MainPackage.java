@@ -1,5 +1,6 @@
+package MainPackage;
 
-public class Main {
+public class MainPackage {
     public static void main(String[] args) {
         System.out.println("Hello Lamdouy");
     }

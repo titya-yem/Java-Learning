@@ -17,11 +17,19 @@ public class Main {
 
         double mortgage = calculateMortgage(principal, interestRate, period);
 
+        printMortgage(mortgage);
+
+        printPaymentSchedule(principal, interestRate, period);
+    }
+
+    public static void printMortgage(double mortgage) {
         String currency = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println("MORTGAGE");
         System.out.println("--------");
         System.out.print("Monthly Payment: " + currency + "\n");
+    }
 
+    public static void printPaymentSchedule(int principal, float interestRate, byte period) {
         System.out.println("PAYMENT SCHEDULE");
         System.out.println("--------------");
         for (short month = 1; month <= period * MONTH_OF_THE_YEAR; month++) {
