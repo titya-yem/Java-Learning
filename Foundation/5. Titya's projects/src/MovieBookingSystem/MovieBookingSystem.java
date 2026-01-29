@@ -34,14 +34,17 @@ public class MovieBookingSystem {
 
     public static void system(String[][] movies, String movieName, int movieTicket, boolean foundMovie) {
         for (String[] seats : movies) {
+            // NOTE: If statement check the movie's name if we have that movie,
+            // we will get the seats of that movie convert to integer
             if (seats[0].equalsIgnoreCase(movieName)) {
-                foundMovie = true;
+                foundMovie = true; // Movie has been found
 
-                int seatsAvailable = Integer.parseInt(seats[1]);
+                int seatsAvailable = Integer.parseInt(seats[1]); // convert seats in Int
 
-                if (movieTicket <= seatsAvailable) {
-                    seatsAvailable -= movieTicket;
-                    seats[1] = String.valueOf(seatsAvailable);
+                if (movieTicket <= seatsAvailable) {  // Check if there are enough seats
+                    seatsAvailable -= movieTicket; // If yes, subtract booked ticket with seats
+
+                    seats[1] = String.valueOf(seatsAvailable); // Save updated seats back to array
 
                     System.out.println("====================");
                     System.out.println("\nBooking successful!");
@@ -74,6 +77,7 @@ public class MovieBookingSystem {
             System.out.println("\nMovie not found!");
             System.out.println("\nPress Enter to continue...");
             scanner.nextLine();
+            clearScreen();
         }
     }
 
