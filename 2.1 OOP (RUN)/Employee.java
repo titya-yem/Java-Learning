@@ -2,6 +2,8 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
+    public static int numberOfEmployees;
+
     public Employee(int baseSalary) { // constructor overloading
         this(baseSalary, 0);
     }
@@ -9,6 +11,11 @@ public class Employee {
     public Employee(int baseSalary, int hourlyRate) { // constructor
         setBaseSalary(baseSalary); // use setter to validate
         setHourlyRate(hourlyRate);
+        numberOfEmployees++;
+    }
+
+    public static void printNumberOfEmployees() {
+        System.out.println(numberOfEmployees);
     }
 
     public int calculatePay(int extraHours) {

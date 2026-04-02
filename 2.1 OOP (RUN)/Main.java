@@ -5,5 +5,7 @@ public class Main {
 
         int pay = employee.calculatePay(10);
         System.out.println(pay);
+
+        Employee.printNumberOfEmployees();
     }
 }
