@@ -1,3 +1,5 @@
+package Lesson;
+
 public class Browser {
     public void navigate(String address) {
         String ip = findIpAddress(address);

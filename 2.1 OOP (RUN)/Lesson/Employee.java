@@ -1,3 +1,5 @@
+package Lesson;
+
 public class Employee {
     private int baseSalary;
     private int hourlyRate;
