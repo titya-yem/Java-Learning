@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-    final static byte MONTHS_IN_YEAR = 12;
-    final static byte PERCENT = 100;
 
     public static void main(String[] args) {
         int principal = (int) readNumber("Principal: ", 1000, 1_000_000);
