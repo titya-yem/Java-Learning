@@ -2,15 +2,9 @@ package com.titya;
 
 public class Main {
     public static void main(String[] args) {
-        var control = new UIControl(true);
-        var textBox = new TextBox();
+        var point1 = new Point(1,2);
+        var point2 = new Point(1,2);
 
-        show(textBox);
-    }
-
-    public static void show (UIControl control) {
-        var textBox = (TextBox) control;
-        textBox.setText("Hello World");
-        System.out.println(control);
+        System.out.println(point1.equals(point2));
     }
 }
