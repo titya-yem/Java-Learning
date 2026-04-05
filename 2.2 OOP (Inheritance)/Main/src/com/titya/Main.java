@@ -1,10 +1,11 @@
 package com.titya;
 
 public class Main {
-    public static void main (String[] args) {
-        var control = new TextBox();
-        control.disable();
+    public static void main(String[] args) {
+        var textBox = new TextBox();
 
-        System.out.println(control.isEnabled());
+        textBox.setText("Hello World");
+
+        System.out.println(textBox);
     }
 }
