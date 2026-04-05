@@ -5,9 +5,13 @@ public class TextBox extends UIControl { // inheritance from UIControl
 
     // when the parent (UIControl) has constructor and field as parameter
     // we have to use super() and give value based on type of UIControl
-    public TextBox() {
-        super(true);
-        System.out.println("TextBox");
+//    public TextBox() {
+//        super(true);
+//    }
+
+    @Override
+    public void render() {
+        System.out.println("Rendering TextBox");
     }
 
     @Override

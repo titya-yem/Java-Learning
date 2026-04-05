@@ -3,9 +3,12 @@ package com.titya;
 public class UIControl {
     private boolean isEnabled = true;
 
-    public UIControl(boolean isEnabled) { // constructor
-        this.isEnabled = isEnabled;
-        System.out.println("UIControl");
+//    public UIControl(boolean isEnabled) { // constructor
+//        this.isEnabled = isEnabled;
+//    }
+
+    public void render() {
+
     }
 
     public void enable() {
