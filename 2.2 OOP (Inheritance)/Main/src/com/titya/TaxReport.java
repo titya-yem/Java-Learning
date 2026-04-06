@@ -7,6 +7,10 @@ public class TaxReport {
         this.calculator = calculator; // constructor injection
     }
 
+    public void setCalculator(TaxCalculator calculator) {
+        this.calculator = calculator; // setter injection
+    }
+
     public void show () {
         var tax = calculator.calculateTax();
         System.out.println(tax);
