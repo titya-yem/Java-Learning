@@ -8,7 +8,7 @@ public class TaxCalculator2018 implements TaxCalculator {
         this.taxableIncome = taxableIncome;
     }
 
-    @Override // we should override if necessary
+    @Override
     public double calculateTax() {
         return taxableIncome * 0.4;
     }
