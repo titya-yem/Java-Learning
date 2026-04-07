@@ -1,13 +1,21 @@
 public class VideoProcessor {
+    private XVideoEncoder encoder;
+    private XVideoDatabase database;
+    private XEmailService email;
+
+    public VideoProcessor(
+            XVideoEncoder encoder,
+            XVideoDatabase database,
+            XEmailService email) {
+        this.encoder = encoder;
+        this.database = database;
+        this.email = email;
+    }
+
     public void process(Video video) {
-        var encoder = new VideoEncoder();
         encoder.encode(video);
-
-        var database = new VideoDatabase();
         database.store(video);
-
-        var emailService = new EmailService();
-        emailService.sendEmail(video.getUser());
+        email.sendEmail(video.getUser());
     }
 }
 

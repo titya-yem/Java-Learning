@@ -10,6 +10,7 @@ public class TaxCalculator2018 implements TaxCalculator {
 
     @Override
     public double calculateTax() {
+
         return taxableIncome * 0.4;
     }
 }
