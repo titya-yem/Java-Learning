@@ -2,27 +2,26 @@ import java.util.ArrayList;
 
 public class Library {
     private ArrayList<Book> books = new ArrayList<>();
+    private Book book;
 
     public void addBooks(ArrayList<Book> books) {
         this.books.addAll(books);
     }
 
     public void borrowBook(int index) {
-        Book book = this.books.get(index);
+        if (index < 0 || index >= books.size())
+            System.out.println("Something went wrong");
 
-        book.setIsBorrowed(true);
-        this.books.remove(index);
-
-        System.out.println("Borrowed Book: " + book);
-        System.out.println("-----------------------");
+        this.book = this.books.get(index);
+        this.book.setIsBorrowed(true);
     }
 
-    public void returnBook(Book book) {
-        book.setIsBorrowed(false);
+    public void returnBook(int index) {
+        if (index < 0 || index >= books.size())
+            System.out.println("Something went wrong");
 
-        this.books.add(book);
-        System.out.println("Borrowed Book: " + book);
-        System.out.println("-----------------------");
+        this.book = this.books.get(index);
+        this.book.setIsBorrowed(false);
     }
 
     public void showBooks() {

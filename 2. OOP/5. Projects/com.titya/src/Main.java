@@ -8,12 +8,13 @@ public class Main {
 
         ArrayList<Book> books = new ArrayList<>();
         books.add(new Book("KamSnea", "Sinet", false));
-        books.add(new Book("KomNotHetSnea", "Sopha", false));
+        books.add(new Book("KomNotHetSnea", "Sopha", true));
         books.add(new Book("OunJeaJiVitBong", "KornNiTha", false));
-        books.add(new Book("MeanTeSneaPit", "Thida", false));
+        books.add(new Book("MeanTeSneaPit", "Thida", true));
         library.addBooks(books);
 
         library.borrowBook(0);
+        library.returnBook(3);
         library.showBooks();
 
 
