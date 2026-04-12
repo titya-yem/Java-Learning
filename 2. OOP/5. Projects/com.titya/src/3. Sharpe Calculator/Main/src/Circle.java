@@ -10,6 +10,7 @@ public class Circle extends Shape { ;
         System.out.println("Circle");
         radius = width / 2;
         area = radius * Math.pow(radius, 2);
+        System.out.println("Area of circle: " + area);
     }
 
     @Override
@@ -17,5 +18,6 @@ public class Circle extends Shape { ;
         System.out.println("Circle");
         radius = width / 2;
         area = radius * width;
+        System.out.println("Perimeter of circle: " + area);
     }
 }
