@@ -1,23 +1,24 @@
 public class Circle extends Shape { ;
     private double radius;
 
-    public Circle(double height, double width) {
-        super(height, width);
+    public Circle(double radius) {
+        this.radius = radius;
     }
 
     @Override
-    public void calculateArea() {
-        System.out.println("Circle");
-        radius = width / 2;
-        area = radius * Math.pow(radius, 2);
-        System.out.println("Area of circle: " + area);
+    public  double calculateArea() {
+        return Math.PI * radius * radius;
     }
 
     @Override
-    public void calculatePerimeter() {
-        System.out.println("Circle");
-        radius = width / 2;
-        area = radius * width;
-        System.out.println("Perimeter of circle: " + area);
+    public double calculatePerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
+    @Override
+    public String toString () {
+        return "Circle [radius=" + radius +
+                ", area=" + calculateArea() +
+                ", perimeter=" + calculatePerimeter() + "]";
     }
 }

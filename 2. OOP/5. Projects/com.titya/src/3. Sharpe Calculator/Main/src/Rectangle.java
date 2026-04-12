@@ -1,19 +1,26 @@
 public class Rectangle extends Shape {
-    public Rectangle(double height, double width) {
-        super(height, width);
+    private double width;
+    private double height;
+
+    public Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
     }
 
     @Override
-    public void calculateArea() {
-        System.out.println("Rectangle");
-        area = width * height;
-        System.out.println("Area of rectangle: " + area);
+    public double calculateArea() {
+        return width * height;
     }
 
     @Override
-    public void calculatePerimeter() {
-        System.out.println("Rectangle");
-        area = (width * height) * 2;
-        System.out.println("Perimeter of rectangle: " + area);
+    public double calculatePerimeter() {
+        return 2 * (width + height);
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle [width=" + width + ", height=" + height +
+                ", area=" + calculateArea() +
+                ", perimeter=" + calculatePerimeter() + "]";
     }
 }

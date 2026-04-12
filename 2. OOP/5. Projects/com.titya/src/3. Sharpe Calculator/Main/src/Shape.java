@@ -1,14 +1,8 @@
 public abstract class Shape {
-    // inheritance
-    protected double height;
-    protected double width;
-    protected double area;
+    public abstract double calculateArea ();
+    public abstract double calculatePerimeter();
 
-    public Shape(double height, double width) {
-        this.height = height;
-        this.width = width;
+    public void printInfo () {
+        System.out.println("This is a shape.");
     }
-
-    public void calculateArea() {} // Polymorphism
-    public void calculatePerimeter() {}
 }
