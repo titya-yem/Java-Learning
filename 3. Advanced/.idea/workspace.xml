@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: re-throwing exceptions">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/exceptions/InsuffientFundsException.java" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: custom throwing exceptions">
+      <change afterPath="$PROJECT_DIR$/com.titya/src/exceptions/AccountException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" afterDir="false" />
     </list>
@@ -120,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776088679936</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson: custom throwing exceptions">
+      <option name="closed" value="true" />
+      <created>1776089230695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776089230695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +138,7 @@
     <MESSAGE value="Lesson: the try with resources statement" />
     <MESSAGE value="Lesson: throwing exceptions" />
     <MESSAGE value="Lesson: re-throwing exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: re-throwing exceptions" />
+    <MESSAGE value="Lesson: custom throwing exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: custom throwing exceptions" />
   </component>
 </project>
