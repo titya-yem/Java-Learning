@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: the finally block">
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: the try with resources statement">
+      <change afterPath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/ExceptionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/exceptions/ExceptionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/exceptions/ExceptionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/exceptions/ExceptionsDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +97,22 @@
       <option name="project" value="LOCAL" />
       <updated>1776087364622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson: the try with resources statement">
+      <option name="closed" value="true" />
+      <created>1776087821048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776087821048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson: Exception" />
     <MESSAGE value="Lesson: Catching multiple types of exceptions" />
     <MESSAGE value="Lesson: the finally block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: the finally block" />
+    <MESSAGE value="Lesson: the try with resources statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: the try with resources statement" />
   </component>
 </project>
