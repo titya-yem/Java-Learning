@@ -1,25 +1,19 @@
 package exceptions;
 
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class ExceptionsDemo {
-    public static void show () throws IOException {
-        FileReader reader = null;
+    public static void show () {
 
-        try {
-            reader = new FileReader("file.txt");
+        try (
+                var reader = new FileReader("file.txt");
+                var writer = new FileWriter("writer.txt");
+                ) {
             var value = reader.read();
         } catch (IOException e) {
             System.out.println("Could not read file");
-        }
-        finally {
-            if (reader != null)
-                try {
-                    reader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
         }
     }
 }
