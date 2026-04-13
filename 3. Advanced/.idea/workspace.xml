@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: the try with resources statement">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: re-throwing exceptions">
+      <change afterPath="$PROJECT_DIR$/com.titya/src/exceptions/InsuffientFundsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/ExceptionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/exceptions/ExceptionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/com.titya/exceptions/ExceptionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/exceptions/ExceptionsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776087821048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson: throwing exceptions">
+      <option name="closed" value="true" />
+      <created>1776088422783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776088422783</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson: re-throwing exceptions">
+      <option name="closed" value="true" />
+      <created>1776088679936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776088679936</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,6 +128,8 @@
     <MESSAGE value="Lesson: Catching multiple types of exceptions" />
     <MESSAGE value="Lesson: the finally block" />
     <MESSAGE value="Lesson: the try with resources statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: the try with resources statement" />
+    <MESSAGE value="Lesson: throwing exceptions" />
+    <MESSAGE value="Lesson: re-throwing exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: re-throwing exceptions" />
   </component>
 </project>
