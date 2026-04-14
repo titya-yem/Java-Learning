@@ -1,7 +1,8 @@
-import exceptions.ExceptionsDemo;
+import generics.List;
 
 public class Main {
     public static void main(String[] args) {
-            ExceptionsDemo.show();
+            var list = new List();
+            list.add(1);
     }
 }
