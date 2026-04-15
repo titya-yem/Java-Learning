@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Comparable Interface">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Generic Methods">
+      <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776278265913</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lesson: Generic Methods">
+      <option name="closed" value="true" />
+      <created>1776279199704</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776279199704</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +193,7 @@
     <MESSAGE value="Lesson: Generic and primitive types" />
     <MESSAGE value="Lesson: Constraints" />
     <MESSAGE value="Lesson: Comparable Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Comparable Interface" />
+    <MESSAGE value="Lesson: Generic Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Generic Methods" />
   </component>
 </project>
