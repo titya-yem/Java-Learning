@@ -2,8 +2,8 @@ import generics.GenericList;
 
 public class Main {
     public static void main(String[] args) {
-        var list = new GenericList<Integer>();
-        list.add(1);
-        list.get(0);
+        GenericList<Integer> numbers = new GenericList<Integer>();
+        numbers.add(1);
+        numbers.get(0);
     }
 }
