@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Constraints">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/User.java" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Comparable Interface">
+      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776277634926</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lesson: Comparable Interface">
+      <option name="closed" value="true" />
+      <created>1776278265913</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1776278265913</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,6 +182,7 @@
     <MESSAGE value="Lesson: Generic Classes" />
     <MESSAGE value="Lesson: Generic and primitive types" />
     <MESSAGE value="Lesson: Constraints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Constraints" />
+    <MESSAGE value="Lesson: Comparable Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Comparable Interface" />
   </component>
 </project>
