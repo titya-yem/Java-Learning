@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Generic Methods">
+      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
