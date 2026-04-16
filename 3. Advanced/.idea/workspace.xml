@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Generic Methods">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Generic Classes and Inheritance">
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" afterDir="false" />
     </list>
@@ -178,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776279199704</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lesson: Generic Classes and Inheritance">
+      <option name="closed" value="true" />
+      <created>1776364613792</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1776364613792</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +201,7 @@
     <MESSAGE value="Lesson: Constraints" />
     <MESSAGE value="Lesson: Comparable Interface" />
     <MESSAGE value="Lesson: Generic Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Generic Methods" />
+    <MESSAGE value="Lesson: Generic Classes and Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Generic Classes and Inheritance" />
   </component>
 </project>
