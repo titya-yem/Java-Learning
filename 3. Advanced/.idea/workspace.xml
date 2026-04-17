@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: Generic Classes and Inheritance">
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: WildCat">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776364613792</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lesson: WildCat">
+      <option name="closed" value="true" />
+      <created>1776364977752</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1776364977752</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +210,7 @@
     <MESSAGE value="Lesson: Comparable Interface" />
     <MESSAGE value="Lesson: Generic Methods" />
     <MESSAGE value="Lesson: Generic Classes and Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Generic Classes and Inheritance" />
+    <MESSAGE value="Lesson: WildCat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: WildCat" />
   </component>
 </project>

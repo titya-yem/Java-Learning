@@ -1,7 +1,9 @@
 package generics;
 
+import java.util.ArrayList;
+
 public class GenericList <T> {
-    private T[] items = (T[]) new Object[10];
+    private ArrayList<T> items = new ArrayList<>();
     private int count;
 
     public void add (T item) {
