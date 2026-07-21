@@ -1,11 +1,11 @@
 package exceptions;
 
 public class InsufficientFundsException extends Exception {
-    public InsufficientFundsException() {
+    public InsufficientFundsException () {
         super("Insufficient Funds");
     }
 
-    public InsufficientFundsException(String message) {
+    public InsufficientFundsException (String message) {
         super(message);
     }
 }

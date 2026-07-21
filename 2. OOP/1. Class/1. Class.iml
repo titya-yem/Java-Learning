@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/1. Creating Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/10. Constructors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/11. Method Overloading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/12. Constructor Overloading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/13. Static Members" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/2. Creating Objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/3. Memory Allocation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/4. Procedural Programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/5. Encapsulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/6. Getters and Setters - Title" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/7. Abstraction" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/8. Coupling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/9. Reducing Coupling" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

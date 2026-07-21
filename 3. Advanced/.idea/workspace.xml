@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: The Need for Iterables">
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Lesson: The Iterable Interface">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/1. Class/1. Class.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/2. Refactoring Towards an Object-oriented Design/2. Refactoring Towards an Object-oriented Design.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/3. Inheritance/3. Inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/4. Interfaces/4. Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/5. Projects/com.titya/src/1. Library Management System/1. Library Management System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/5. Projects/com.titya/src/2. Banking System/2. Banking System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/5. Projects/com.titya/src/3. Sharpe Calculator/3. Sharpe Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/5. Projects/com.titya/src/4. Payment System/4. Payment System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. OOP/5. Projects/com.titya/src/5. Task Management/5. Task Management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.2 OOP (Inheritance)/2.2 OOP (Inheritance).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.3 OOP (Project)/2.3 OOP (Project).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Advanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.titya/src/exceptions/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. Foundation/1. Foundation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Foundation/1. Foundation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. Foundation/4. Debug&amp;Deploy/4. Debug&amp;Deploy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Foundation/4. Debug&amp;Deploy/4. Debug&amp;Deploy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. Foundation/5. Titya's projects/5. Titya's projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Foundation/5. Titya's projects/5. Titya's projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/exceptions/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/AccountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/ExceptionsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/exceptions/InsufficientFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/exceptions/InsufficientFundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/exceptions/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/exceptions/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/exceptions/AccountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/exceptions/ExceptionsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/exceptions/InsufficientFundsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/generics/GenericList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/generics/GenericList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/generics/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/generics/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -200,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776446389712</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lesson: The Iterable Interface">
+      <option name="closed" value="true" />
+      <created>1776446732064</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1776446732064</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +263,7 @@
     <MESSAGE value="Lesson: Generic Classes and Inheritance" />
     <MESSAGE value="Lesson: WildCat" />
     <MESSAGE value="Lesson: The Need for Iterables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: The Need for Iterables" />
+    <MESSAGE value="Lesson: The Iterable Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson: The Iterable Interface" />
   </component>
 </project>

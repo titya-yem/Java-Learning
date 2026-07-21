@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/1. Class/1. Class.iml" filepath="$PROJECT_DIR$/2. OOP/1. Class/1. Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Foundation/1. Foundation.iml" filepath="$PROJECT_DIR$/1. Foundation/1. Foundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/1. Library Management System/1. Library Management System.iml" filepath="$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/1. Library Management System/1. Library Management System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/2. Banking System/2. Banking System.iml" filepath="$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/2. Banking System/2. Banking System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/2. Refactoring Towards an Object-oriented Design/2. Refactoring Towards an Object-oriented Design.iml" filepath="$PROJECT_DIR$/2. OOP/2. Refactoring Towards an Object-oriented Design/2. Refactoring Towards an Object-oriented Design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.2 OOP (Inheritance)/2.2 OOP (Inheritance).iml" filepath="$PROJECT_DIR$/2.2 OOP (Inheritance)/2.2 OOP (Inheritance).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.3 OOP (Project)/2.3 OOP (Project).iml" filepath="$PROJECT_DIR$/2.3 OOP (Project)/2.3 OOP (Project).iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. Advanced/3. Advanced.iml" filepath="$PROJECT_DIR$/3. Advanced/3. Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/3. Inheritance/3. Inheritance.iml" filepath="$PROJECT_DIR$/2. OOP/3. Inheritance/3. Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/3. Sharpe Calculator/3. Sharpe Calculator.iml" filepath="$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/3. Sharpe Calculator/3. Sharpe Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Foundation/4. Debug&amp;Deploy/4. Debug&amp;Deploy.iml" filepath="$PROJECT_DIR$/1. Foundation/4. Debug&amp;Deploy/4. Debug&amp;Deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/4. Interfaces/4. Interfaces.iml" filepath="$PROJECT_DIR$/2. OOP/4. Interfaces/4. Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/4. Payment System/4. Payment System.iml" filepath="$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/4. Payment System/4. Payment System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/5. Task Management/5. Task Management.iml" filepath="$PROJECT_DIR$/2. OOP/5. Projects/com.titya/src/5. Task Management/5. Task Management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Foundation/5. Titya's projects/5. Titya's projects.iml" filepath="$PROJECT_DIR$/1. Foundation/5. Titya's projects/5. Titya's projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learning.iml" filepath="$PROJECT_DIR$/Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project.iml" filepath="$PROJECT_DIR$/Project/Project.iml" />
+    </modules>
+  </component>
+</project>
