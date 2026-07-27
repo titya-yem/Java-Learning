@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Collection: The need for generics">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/UserList.java" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: Poor pratice by using Object">
+      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784833856652</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Generic: Poor pratice by using Object">
+      <option name="closed" value="true" />
+      <created>1784834950872</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1784834950872</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +285,7 @@
     <MESSAGE value="New Folder: from Exception" />
     <MESSAGE value="Exception: Chaining Exceptions" />
     <MESSAGE value="Collection: The need for generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection: The need for generics" />
+    <MESSAGE value="Generic: Poor pratice by using Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic: Poor pratice by using Object" />
   </component>
 </project>
