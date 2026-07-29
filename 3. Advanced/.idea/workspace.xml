@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: Generic classes" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: Constraint">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.titya/src/generics/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785166040384</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Generic: Constraint">
+      <option name="closed" value="true" />
+      <created>1785345105983</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1785345105983</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +303,7 @@
     <MESSAGE value="Collection: The need for generics" />
     <MESSAGE value="Generic: Poor pratice by using Object" />
     <MESSAGE value="Generic: Generic classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic: Generic classes" />
+    <MESSAGE value="Generic: Constraint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic: Constraint" />
   </component>
 </project>
