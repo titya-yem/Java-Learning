@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: Poor pratice by using Object">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: Generic classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784834950872</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Generic: Generic classes">
+      <option name="closed" value="true" />
+      <created>1785166040383</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1785166040384</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +290,7 @@
     <MESSAGE value="Exception: Chaining Exceptions" />
     <MESSAGE value="Collection: The need for generics" />
     <MESSAGE value="Generic: Poor pratice by using Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic: Poor pratice by using Object" />
+    <MESSAGE value="Generic: Generic classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic: Generic classes" />
   </component>
 </project>
