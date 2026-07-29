@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: Multiple Type Parameters">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/generics/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: Classes and Inheritance">
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/Utils.java" afterDir="false" />
     </list>
@@ -291,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785346876324</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Generic: Classes and Inheritance">
+      <option name="closed" value="true" />
+      <created>1785347360512</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1785347360512</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +312,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson: Catching multiple types of exceptions" />
     <MESSAGE value="Lesson: the finally block" />
     <MESSAGE value="Lesson: the try with resources statement" />
     <MESSAGE value="Lesson: throwing exceptions" />
@@ -331,6 +336,7 @@
     <MESSAGE value="Generic: Comparable Interface" />
     <MESSAGE value="Generic: Generic Method" />
     <MESSAGE value="Generic: Multiple Type Parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic: Multiple Type Parameters" />
+    <MESSAGE value="Generic: Classes and Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic: Classes and Inheritance" />
   </component>
 </project>
