@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Generic: WildCard">
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Collection: Iterable Interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/generics/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.titya/generics/GenericList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/generics/GenericList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785347828006</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Collection: Iterable Interface">
+      <option name="closed" value="true" />
+      <created>1785948136239</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1785948136240</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +331,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson: the try with resources statement" />
     <MESSAGE value="Lesson: throwing exceptions" />
     <MESSAGE value="Lesson: re-throwing exceptions" />
     <MESSAGE value="Lesson: custom throwing exceptions" />
@@ -346,6 +355,7 @@
     <MESSAGE value="Generic: Multiple Type Parameters" />
     <MESSAGE value="Generic: Classes and Inheritance" />
     <MESSAGE value="Generic: WildCard" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic: WildCard" />
+    <MESSAGE value="Collection: Iterable Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection: Iterable Interface" />
   </component>
 </project>
