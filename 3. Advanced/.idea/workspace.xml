@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Collection: Comparable Interface">
-      <change afterPath="$PROJECT_DIR$/com.titya/src/collections/EmailComparator.java" afterDir="false" />
+    <list default="true" id="05895c32-2fc8-48fc-b59d-db5d76ebae77" name="Changes" comment="Collection: Comparator Interface">
+      <change afterPath="$PROJECT_DIR$/com.titya/src/collections/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.titya/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.titya/src/collections/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.titya/src/collections/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/com.titya/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/com.titya/collections/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.titya/collections/Customer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786298345417</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Collection: Comparator Interface">
+      <option name="closed" value="true" />
+      <created>1786298727935</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1786298727935</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson: Generic Classes" />
     <MESSAGE value="Lesson: Generic and primitive types" />
     <MESSAGE value="Lesson: Constraints" />
     <MESSAGE value="Lesson: Comparable Interface" />
@@ -396,6 +401,7 @@
     <MESSAGE value="Collection: Collection interface" />
     <MESSAGE value="Collection: List Interface" />
     <MESSAGE value="Collection: Comparable Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection: Comparable Interface" />
+    <MESSAGE value="Collection: Comparator Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection: Comparator Interface" />
   </component>
 </project>
