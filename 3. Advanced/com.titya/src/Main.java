@@ -1,5 +1,5 @@
-import collections.QueueDemo;
+import collections.HashMapDemo;
 
 public static void main (String[] args) {
-    QueueDemo.show();
+    HashMapDemo.show();
 }
