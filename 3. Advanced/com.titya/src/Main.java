@@ -1,5 +1,5 @@
-import collections.HashMapDemo;
+import lambdas.LambdasDemo;
 
 public static void main (String[] args) {
-    HashMapDemo.show();
+    LambdasDemo.show();
 }
